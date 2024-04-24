@@ -7,7 +7,7 @@ def clear():
     _ = os.system('cls' if os.name == 'nt' else 'clear')
 def main():
     # Get API key from environment variable
-    api_key = "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"
+    api_key = "Enter your groq cloud api key"
 
     # Load existing conversation data from file or create a new one
     if os.path.exists("data.json"):
